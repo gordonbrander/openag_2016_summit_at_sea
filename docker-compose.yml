@@ -1,7 +1,7 @@
 version: "2"
 services:
     brain:
-        image: summit_at_sea
+        image: gordonbrander/summit_at_sea
         expose:
             - 5000
         devices:
