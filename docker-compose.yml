@@ -6,7 +6,7 @@ services:
             - 5000
         devices:
             - "/dev/ttyACM0:/dev/ttyACM0"
-        command: ~/catkin_ws/devel/env.sh rosrun openag_brain main -D http://db:5984 -A http://brain:5000 -F /home/pi/openag_2016_summit_at_sea_fixture/summit_at_sea.json --screen
+        command: ~/catkin_ws/devel/env.sh rosrun openag_brain main -D http://db:5984 -A http://brain:5000 -f default -F /home/pi/openag_2016_summit_at_sea_fixture/summit_at_sea.json --screen
         depends_on:
             - db
         restart: unless-stopped
