@@ -1,4 +1,4 @@
-FROM gordonbrander/rpi_brain_service_proxy
+FROM openag/rpi_brain
 
 USER pi
 # Get the fixture files for the demobot
